@@ -1,0 +1,12 @@
+{
+  "name": "cloneDynamoDB",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Sergiod3x/cloneDynamoDB.git",
+  "author": "Sergiod3x <sergiod3x@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.592.0",
+    "@aws-sdk/client-sts": "^3.592.0"
+  }
+}
