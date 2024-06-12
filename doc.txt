@@ -1,3 +1,5 @@
+https://app.clickup.com/9006118354/v/dc/8ccwxej-2635/8ccwxej-4335
+
 Inizializzare un nuovo progetto Node.js con Yarn:
 
 yarn init -y
@@ -18,3 +20,6 @@ roleArnB = 'arn:aws:iam::ACCOUNT_B_ID:role/RestoreRole'; // Ruolo per il riprist
 Lanciare il backup e ripristino
 
 time node clonedb.ts
+
+
+
