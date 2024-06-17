@@ -1,4 +1,4 @@
-https://app.clickup.com/9006118354/v/dc/8ccwxej-2635/8ccwxej-4335
+https://app.clickup.com/9006118354/v/dc/8ccwxej-2675
 
 Inizializzare un nuovo progetto Node.js con Yarn:
 
