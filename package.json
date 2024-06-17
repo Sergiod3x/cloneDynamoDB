@@ -7,6 +7,9 @@
   "license": "MIT",
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.592.0",
-    "@aws-sdk/client-sts": "^3.592.0"
+    "@aws-sdk/client-s3": "^3.598.0",
+    "@aws-sdk/client-sts": "^3.598.0",
+    "@aws-sdk/credential-providers": "^3.598.0",
+    "aws-sdk": "^2.1642.0"
   }
 }
