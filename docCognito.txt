@@ -1,0 +1,30 @@
+https://app.clickup.com/9006118354/v/dc/8ccwxej-2695
+
+Inizializzare un nuovo progetto Node.js con Yarn:
+
+yarn init -y
+
+Installare le dipendenze necessarie per il progetto:
+
+yarn add @aws-sdk/client-cognito-identity-provider @aws-sdk/client-sts @aws-sdk/credential-providers
+
+
+Modificare nel codice i campi :
+
+const region = 'eu-west-1'; // Regione per entrambi gli account
+const sourceUserPoolPrefix = 'Prova1'; // Prefisso per gli User Pool di sviluppo
+const targetUserPoolPrefix = 'prod-prova2'; // Prefisso per gli User Pool di produzione
+
+const roleArnA = 'arn:aws:iam::475192682913:role/OrganizationAccountAccessRole'; // Ruolo per l'accesso all'Account A
+const roleArnB = 'arn:aws:iam::475192682913:role/OrganizationAccountAccessRole'; // Ruolo per l'accesso all'Account B
+
+const isCustomSub = false; // Modifica questa variabile a 'true' se 'sub' è un attributo personalizzato, altrimenti 'false'
+                          //  se sub non è un valore personalizzato verrà generato un nuovo sub
+
+
+Lanciare la duplicazione/migrazione
+
+time node cloneCognito.ts
+
+
+

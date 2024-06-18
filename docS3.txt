@@ -17,7 +17,7 @@ targetTablePrefix = 'riale-calendar-dev-'; // Prefisso per le tabelle di destina
 roleArnA = 'arn:aws:iam::ACCOUNT_A_ID:role/BackupRole'; // Ruolo per il backup su Account A
 roleArnB = 'arn:aws:iam::ACCOUNT_B_ID:role/RestoreRole'; // Ruolo per il ripristino su Account B
 
-Lanciare il backup e ripristino
+Lanciare la duplicazione/migrazione
 
 time node cloneS3.ts
 
