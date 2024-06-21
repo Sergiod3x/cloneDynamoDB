@@ -6,7 +6,8 @@ yarn init -y
 
 Installare le dipendenze necessarie per il progetto:
 
-yarn add @aws-sdk/client-dynamodb @aws-sdk/client-sts
+yarn add @aws-sdk/client-dynamodb @aws-sdk/client-sts prompt
+
 
 
 Modificare nel codice i campi :
