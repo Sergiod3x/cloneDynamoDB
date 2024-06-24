@@ -3,11 +3,11 @@ const { STSClient, AssumeRoleCommand } = require('@aws-sdk/client-sts');
 const { fromTemporaryCredentials } = require('@aws-sdk/credential-providers');
 
 const region = 'eu-west-1'; // Regione per entrambi gli account
-const sourceUserPoolPrefix = 'Prova1'; // Prefisso per gli User Pool di sviluppo
-const targetUserPoolPrefix = 'prod-prova2'; // Prefisso per gli User Pool di produzione
+const sourceUserPoolPrefix = 'riale-calendar-production'; // Prefisso per gli User Pool di sviluppo
+const targetUserPoolPrefix = 'riale-calendar-stage'; // Prefisso per gli User Pool di produzione
 
-const roleArnA = 'arn:aws:iam::475192682913:role/OrganizationAccountAccessRole'; // Ruolo per l'accesso all'Account A
-const roleArnB = 'arn:aws:iam::475192682913:role/OrganizationAccountAccessRole'; // Ruolo per l'accesso all'Account B
+const roleArnA = 'arn:aws:iam::740820033840:role/OrganizationAccountAccessRole'; // Ruolo per l'accesso all'Account A
+const roleArnB = 'arn:aws:iam::740820033840:role/OrganizationAccountAccessRole'; // Ruolo per l'accesso all'Account B
 
 const isCustomSub = false; // Modifica questa variabile a 'true' se 'sub' è un attributo personalizzato, altrimenti 'false'
 

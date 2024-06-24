@@ -23,3 +23,5 @@ time node cloneS3.ts
 
 
 
+Una volta duplicati tutti i bucket, oltre a stampare un report incluso di errori sul terminale, verrà 
+stampato una coppia del report su un file reportS3.txt

@@ -1,0 +1,14 @@
+Report finale:
+
+Bucket clonati con successo:
+
+[
+  {
+    "sourceBucket": "riale-calendar-productio-serverlessdeploymentbuck-xdjim6gdzgm8",
+    "targetBucket": "testx-stage"
+  }
+]
+
+Errori durante la clonazione:
+
+[]
